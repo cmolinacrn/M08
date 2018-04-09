@@ -1,0 +1,66 @@
+@media (min-width: 769px) {
+      body {margin: 0;
+            padding: 0;}
+
+
+      #cap {width: 100%;
+            height: auto;
+            background-color: #636E6E;
+            color: white;
+            overflow: hidden;
+            padding-bottom: 15px;
+            position: fixed;}
+      #llista {width: 90%;
+              margin: 0 auto;
+              padding: 0;
+              display: block;
+              text-align: center;}
+      #llista li {margin: 5px;
+                  width: 20%;
+                  display: inline;
+                  border: solid 1px #FFF;
+                  padding: 5px;}
+      .fa-bars {display: none;
+                visibility: hidden;}
+      h1 {text-align: center;
+          margin-top: 5px;}
+
+
+      #cos {width: 70%;
+            background-color: #6AB1AB;
+            overflow: hidden;
+            padding-top: 95px;
+            float: left;}
+      #cos ul {margin: 0;
+              padding:0;
+              background-color: red;}
+      #cos ul li {margin: 10px 13px;
+                  background-color: #CCF1E8;
+                  float: left;
+                  width: 39%;
+                  height: 250px;
+                  padding: 3%;}
+      h3 {margin: 8px 10px;}
+
+
+
+      #menu {width: 30%;
+            height: auto;
+            background-color: #91A1A0;
+            overflow: hidden;
+            padding-top: 95px}
+      #menu ul {margin: 0;
+                padding: 0;}
+      #menu ul li {margin: 10px 13px;
+                  background-color: #D6EEEC;
+                  text-align: center;
+                  padding: 5px 0 15px 0;
+                  display: block;
+                  height: auto;}
+
+
+      #peu {height: 50px;
+            background-color: #636E6E;
+            margin: 0;
+            clear: both;}
+      }

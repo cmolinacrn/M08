@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+      body {margin: 0;
+            padding: 0;}
+
+
+      #cap {width: 100%;
+                  height: auto;
+                  background-color: #2E2E2E;
+                  color: white;
+                  overflow: hidden;
+                  padding-bottom: 15px;
+                  position: fixed;}
+      #cap ul {width: 90%;
+                    margin: 0 auto;
+                    padding: 0;
+                    display: block;
+                    text-align: center;}
+      #cap ul li {margin: 5px;
+                        width: 20%;
+                        display: inline;
+                        border: solid 1px #FFF;
+                        padding: 5px;}
+      h1 {text-align: center;
+          margin-top: 0;}
+
+
+      #cos {width: 100%;
+            background-color: grey;
+            overflow: hidden;
+            padding-top: 90px;}
+      #cos ul {margin: 0;
+              padding:0;}
+      #cos ul li {margin: 15px 13px;
+                  background-color: #F6CED8;
+                  text-align: center;
+                  display: block;
+                  height: 60px;}
+
+
+
+      #menu {width: 100%;
+            background-color: #F6CED8;
+            overflow: hidden;}
+      #menu ul {margin: 0;
+              padding: 0;}
+      #menu ul li {margin: 15px 13px;
+                  background-color: grey;
+                  text-align: center;
+                  color: white;
+                  display: block;
+                  height: 40px;}
+
+
+      #peu {height: 50px;
+            background-color: #2E2E2E;
+            margin: 0;}
+}

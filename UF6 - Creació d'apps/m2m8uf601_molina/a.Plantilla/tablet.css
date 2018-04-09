@@ -1,0 +1,58 @@
+@media screen and (min-width: 481px) {
+      body {margin: 0;
+            padding: 0;}
+
+
+      #cap{width: 100%;
+          height: auto;
+          background-color: #2E2E2E;
+          color: white;
+          overflow: hidden;
+          padding-bottom: 15px;
+          position: fixed;}
+      #cap ul {width: 90%;
+              margin: 0 auto;
+              padding: 0;
+              display: block;
+              text-align: center;}
+      #cap ul li {margin: 5px;
+                  width: 20%;
+                  display: inline;
+                  border: solid 1px #FFF;
+                  padding: 5px;}
+      h1 {text-align: center;
+          margin-top: 0;}
+
+
+      #cos {width: 60%;
+            background-color: #BDBDBD;
+            overflow: hidden;
+            padding-top: 90px;
+            float: left;}
+      #cos ul {margin: 0;
+              padding: 0;}
+      #cos ul li {margin: 10px 13px;
+                  background-color: #CEE3F6;
+                  text-align: center;
+                  display: block;
+                  height: 80px;}
+
+      #menu {width: 40%;
+            height: 730px;
+            background-color: #CEE3F6;
+            overflow: hidden;
+            padding-top: 90px}
+      #menu ul {margin: 0;
+                padding: 0;}
+      #menu ul li {margin: 10px 13px;
+                  background-color: #BDBDBD;
+                  text-align: center;
+                  display: block;
+                  height: 30px;}
+
+
+      #peu {height: 50px;
+            background-color: #2E2E2E;
+            margin: 0;
+            clear: both;}
+      }
