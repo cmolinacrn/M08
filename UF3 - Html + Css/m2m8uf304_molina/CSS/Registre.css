@@ -1,0 +1,61 @@
+#centro {height: 571px;
+          width: 300px;
+          margin: 0 auto;}
+#contingut {background-color: #F2F3F4;
+            height: 571px;
+            background-image: url(../img/frame-iphone5.png);
+            background-repeat: no-repeat;
+            background-position: center;}
+#logo {height: 48px;
+      overflow: visible;}
+#logo ul {float:right;}
+#logo li {margin: 10px;
+          display: inline;}
+#logo a {padding: 10px;
+        background-color: pink;
+        border-radius: 5px}
+a {text-decoration: none;}
+a:link {color: white;}
+a:visited {color: white;}
+      body {font-family: Lucida, Verdana, Sans-serif;}
+      h1 {font-size: 20px;
+          text-align: center;
+          padding: 140px 0 0 0;}
+      p {font-size: 13px;
+        text-align: center;
+        margin: 0 20px;}
+      img {padding: 15px;}
+
+#centro ul {align: center;
+            margin: 10px 10px 10px 26px;
+            padding-top: 10px;
+            padding-left: 7px;
+            width: 240px;}
+#centro li {display: inline;
+            margin: 5px;
+            color: white;}
+      #uno {background-color: red;
+            padding: 10px 20px;
+            border-radius: 3px;}
+      #dos {background-color: blue;
+            padding: 10px 20px;
+            border-radius: 3px;}
+
+#Registrat {padding: 10px 10px;
+            margin: 15px 40px;
+            background-color: pink;
+            border-radius: 5px;
+            text-align: center;}
+
+#Termins {font-size: 13px;
+          margin: 30px 10px 5px 10px;}
+
+
+.formateig1 {margin: 20px 0 2px 37px;
+            height: 30px;
+            width: 220px;
+            text-align: center;}
+.formateig {margin: 2px 0 2px 37px;
+            height: 30px;
+            width: 220px;
+            text-align: center;}
