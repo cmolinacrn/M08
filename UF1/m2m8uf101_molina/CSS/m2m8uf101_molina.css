@@ -1,0 +1,105 @@
+h1 {text-align: center;
+    padding: 25px;
+    font-family: helvetica;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;}
+
+ p {text-align: center;
+   font-size: 13px;
+   font-family: helvetica;
+   margin: 0;
+   padding: 10px 0 0 0;}
+
+
+#cel {background-color: #04B4AE;
+      width: 350px;
+      height: 500px;
+      margin: 0 auto;
+      animation-name: clar;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;}
+
+      @keyframes clar {
+        0% {top: 0px;}
+        100% {top: 0px; background-color: cyan;}
+      }
+
+#sol {background-color: #FF8000;
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      margin: 0 auto;
+      position: relative;
+      top: 450px;
+      animation-name: sortint;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;}
+
+      @keyframes sortint {
+        0% {top: 400px; transform: scale(0.5);}
+        100% {top: 20px; background-color: yellow;}
+      }
+
+#terra {background-color: green;
+        width: 350px;
+        height: 170px;
+        margin: 0 auto;
+        animation-name: terra;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;}
+
+      @keyframes terra {
+        0% {top: 400px;}
+        100% {top: 20px; background-color: #5FB404;}
+        }
+
+#carretera {background-color: grey;
+        width: 115px;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+        top: -100px;}
+
+#tren {background-color: red;
+      width: 100px;
+      height: 95px;
+      border-radius: 10px 10px 7px 7px;
+      margin: 0 auto;
+      padding-top: 5px;
+      position: relative;
+      top: -110px;
+      z-index: 2;
+      animation-name: baixa;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;}
+
+      @keyframes baixa {
+        0% {top: -75px; transform: scale(0.5);}
+        100% {top: 20px;}
+      }
+
+.roda {background-color: black;
+      width: 15px;
+      height: 15px;
+      float: left;
+      margin: 0 17px;
+      border-radius: 0 0 5px 5px;}
+
+.llums{width: 100px;
+      height: 30px;
+      margin: 0 auto;
+      margin-top: 25px;}
+
+.llum {background-color: yellow;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      float: left;
+      margin: 0 15px;}
+
+.ventana {background-color: white;
+          width: 90px;
+          height: 40px;
+          border-radius: 5px;
+          margin: 0 auto;}
